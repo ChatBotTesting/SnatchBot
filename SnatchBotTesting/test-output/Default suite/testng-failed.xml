@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.cbautomate.tests.SnatchBotTests">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="chatBotFunctionAndAssertionMethod"/>
+          <include name="startDriver"/>
+          <include name="endReport"/>
+          <include name="userCanConfigureChatBot"/>
+          <include name="setExtent"/>
+          <include name="tearDownClass"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.cbautomate.tests.SnatchBotTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

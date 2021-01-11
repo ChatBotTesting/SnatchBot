@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="100843" started-at="2021-01-11T04:36:22Z" finished-at="2021-01-11T04:38:03Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="100843" started-at="2021-01-11T04:36:22Z" finished-at="2021-01-11T04:38:03Z">
+      <class name="com.cbautomate.tests.SnatchBotTests">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6]" name="setExtent" is-config="true" duration-ms="255" started-at="2021-01-11T04:36:22Z" finished-at="2021-01-11T04:36:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6]" name="startDriver" is-config="true" duration-ms="6645" started-at="2021-01-11T04:36:22Z" finished-at="2021-01-11T04:36:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6]" name="setUpClass" is-config="true" duration-ms="549" started-at="2021-01-11T04:36:29Z" finished-at="2021-01-11T04:36:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="UserCanRegisterSuccssfully()[pri:1, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6]" name="UserCanRegisterSuccssfully" duration-ms="29208" started-at="2021-01-11T04:36:29Z" finished-at="2021-01-11T04:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccssfully -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6]" name="tearDown" is-config="true" duration-ms="785" started-at="2021-01-11T04:36:58Z" finished-at="2021-01-11T04:36:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanRegisterSuccssfully status=SUCCESS method=SnatchBotTests.UserCanRegisterSuccssfully()[pri:1, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="userCanConfigureChatBot()[pri:2, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6]" name="userCanConfigureChatBot" duration-ms="21506" started-at="2021-01-11T04:36:59Z" finished-at="2021-01-11T04:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanConfigureChatBot -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6]" name="tearDown" is-config="true" duration-ms="801" started-at="2021-01-11T04:37:21Z" finished-at="2021-01-11T04:37:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanConfigureChatBot status=SUCCESS method=SnatchBotTests.userCanConfigureChatBot()[pri:2, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="chatBotFunctionAndAssertionMethod()[pri:3, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6]" name="chatBotFunctionAndAssertionMethod" duration-ms="33931" started-at="2021-01-11T04:37:21Z" finished-at="2021-01-11T04:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chatBotFunctionAndAssertionMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6]" name="tearDown" is-config="true" duration-ms="5992" started-at="2021-01-11T04:37:55Z" finished-at="2021-01-11T04:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chatBotFunctionAndAssertionMethod status=SUCCESS method=SnatchBotTests.chatBotFunctionAndAssertionMethod()[pri:3, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2021-01-11T04:38:01Z" finished-at="2021-01-11T04:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.cbautomate.tests.SnatchBotTests@3e3047e6]" name="endReport" is-config="true" duration-ms="1353" started-at="2021-01-11T04:38:01Z" finished-at="2021-01-11T04:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.cbautomate.tests.SnatchBotTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
